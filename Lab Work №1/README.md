@@ -36,7 +36,7 @@
     Работа с платформами (например, Telegram, VK) через API.
 
 ## Диаграмма вариантов использования
-![Диаграмма вариантов использования](https://www.plantuml.com/plantuml/png/bLJTQXD15BwVfnXwdnSGaGf5w8rAnTwlco6khZkoksb04P866p12RhtHMl01fkgQRPgaht3cZVpEJ3V9kal1GdVtp9plEp_dEzdFyY3D-szY4OIvJYLz9qDpEyJpajRsr4wef8KCCdcWJbIitwgqyZodDLtRppJ7-oSPUqe5s-pxFDkuxT5Nt8t1ix9Jkf9sQCUqO0Z-VrDPmVOOzwmF_fCeqrlq1Ln6pcb9HjeHaZf3IeOnJ6a_yc7XFAuyYGwZ87wiye5ENmkHgZ0FabwiaB4T0dgDm7_WlS9t8TyBYRz-fi8WKuY7-i5t0vyvF8ol35NXuD9-0cm1SohvJkAoH0q5hLtW8nNgNXAzKqzUl4BGhCxC_U9QQB63ann98fI1RK3AJLhogN4pM79b_ilNfe8qV7aSTPN-bnrUQx0lyMH4uRBc3unppDr2YupF_QRAX8nZFOxKm3CVgQmVDpB_GIKJCA-VzNzmFuhYNALtiL-mhvtSmUg83lGWYNNGRIVvGYidWL_SB5Q8dK4NBNf1WyfRnTYPDoOmN5JvyEaXn-BtOPAhNXhaaKx41o4swfUT1ur1otlrlN59SvyuIXrQPsOWhyVeTiZb1hJT17c_qnhmt0-3SxSpnaXUAnX3Br9QiHwgdbRhFAqpxmgAIR_PCzwCRIAjyn225npbxCAhiwQQgfjA2srtZV6AsXhBJgDtObybNVxX-Wi0)
+![alt text](<Снимок экрана 2024-12-11 в 14.30.21.png>)
 
 ## Перечень сделанных предположений
 - Доступ к API социальных сетей
@@ -68,8 +68,8 @@
     Удобный и интуитивно понятный интерфейс с минимальным количеством действий для выполнения поиска.
 
 - Совместимость
-    Приложение должно быть доступно на основных браузерах (Chrome, Firefox, Safari) и платформах (Windows, macOS, мобильные устройства).
+    Приложение должно быть доступно на основных браузерах (Chrome, Firefox, Safari).
 
 - Точность
-    Уровень точности распознавания объектов должен составлять не менее 90%.
+    Уровень точности распознавания объектов должен составлять не менее 80%.
 
