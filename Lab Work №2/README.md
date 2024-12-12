@@ -36,7 +36,7 @@ _Почему это SOA?_
 
 - Модульность - система организована таким образом, что каждый сервис можно развивать, тестировать и развертывать независимо.
 
-![alt text](image-3.png)
+![alt text](image-8.png)
 
 ## Диаграммы компонентов
 
@@ -46,7 +46,7 @@ _Почему это SOA?_
 - Data Layer - обеспечивает обработку данных между UI и API Client.
 - API Client - упрощает взаимодействие между Web Application и Backend Service.
 
-![alt text](image-4.png)
+![alt text](image-6.png)
 
 ### Компоненты Backend Service
 **Описание**:
@@ -54,4 +54,4 @@ _Почему это SOA?_
 - Video Processor - выполняет распознавание объектов на видео.
 - Database Connector - управляет доступом к базе данных для хранения и получения данных.
 
-![alt text](image.png)
+![alt text](image-7.png)
