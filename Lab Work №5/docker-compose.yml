@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  user-service:
+    build: 
+      context: ./user-service
+    container_name: user_service
+    ports:
+      - "8000:8000"
+    environment:
+      - SERVICE_NAME=UserService
+    networks:
+      - my_network
+
+  video-service:
+    build:
+      context: ./video-service
+    container_name: video_service
+    ports:
+      - "9000:9000"
+    environment:
+      - SERVICE_NAME=VideoAnalysisService
+      - USER_SERVICE_URL=http://user-service:8000
+    depends_on:
+      - user-service
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
